@@ -20,30 +20,19 @@ CREATE TABLE orders (
     order_value DECIMAL(10,2),
     status VARCHAR(20)
 );
+
 ---
 
 ##🚀 How to Run
-
 Open MySQL Workbench.
-
 Create a database (e.g., test).
-
 Run the orders_case_study.sql file.
-
 Execute the queries to analyze results.
 
-
-
 ##📌 Skills Demonstrated
-
 Database creation & table design
-
 Data insertion & manipulation
-
 Aggregate functions (SUM, AVG, COUNT)
-
 Grouping & filtering with GROUP BY and HAVING
-
 Conditional logic with CASE
-
 Ranking with ORDER BY and LIMIT
