@@ -6,19 +6,23 @@ It includes queries for analyzing **order trends, cancellations, revenues, repea
 
 The dataset is stored in a single table: **`orders`**.
 
-##🚀 How to Run
-Open MySQL Workbench.
-Create a database (e.g., test).
-Run the orders_case_study.sql file.
-Execute the queries to analyze results.
+---
 
-##📌 Skills Demonstrated
-Database creation & table design
-Data insertion & manipulation
-Aggregate functions (SUM, AVG, COUNT)
-Grouping & filtering with GROUP BY and HAVING
-Conditional logic with CASE
-Ranking with ORDER BY and LIMIT
+## 🚀 How to Run
+1. Open **MySQL Workbench**.  
+2. Create a database (e.g., `test`).  
+3. Run the `orders_case_study.sql` file.  
+4. Execute the queries to analyze results.
+
+---
+
+## 📌 Skills Demonstrated
+- Database creation & table design  
+- Data insertion & manipulation  
+- Aggregate functions (`SUM`, `AVG`, `COUNT`)  
+- Grouping & filtering with `GROUP BY` and `HAVING`  
+- Conditional logic with `CASE`  
+- Ranking with `ORDER BY` and `LIMIT`  
 
 ---
 
@@ -34,7 +38,3 @@ CREATE TABLE orders (
     order_value DECIMAL(10,2),
     status VARCHAR(20)
 );
-
----
-
-
