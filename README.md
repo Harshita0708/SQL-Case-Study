@@ -21,6 +21,8 @@ CREATE TABLE orders (
     status VARCHAR(20)
 );
 
+
+
 ##🚀 How to Run
 
 Open MySQL Workbench.
@@ -30,6 +32,8 @@ Create a database (e.g., test).
 Run the orders_case_study.sql file.
 
 Execute the queries to analyze results.
+
+
 
 ##📌 Skills Demonstrated
 
