@@ -20,8 +20,7 @@ CREATE TABLE orders (
     order_value DECIMAL(10,2),
     status VARCHAR(20)
 );
-
-**
+---
 
 ##🚀 How to Run
 
